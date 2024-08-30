@@ -19,6 +19,7 @@ if (isset($row) & $row['nome'] != '')
 } 
 else 
 {
+    header("Location: https://github.com/HebertJunior");
     echo "senha incorreta";
 }
 ?>
